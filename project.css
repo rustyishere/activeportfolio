@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+::selection {
+    color: #ffffff;
+    background: black;
+  }
+  .card11:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: ease-in-out 0.7s;
+  }
+  .card22:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: ease-in-out 0.7s;
+  }
+  .card22info{
+    z-index: 12;
+  }
+.main{
+    position: relative;
+    height:100%;
+    width: 100%;
+}
+.nav{
+    background-color: #ffffff;
+    top: 0;
+    overflow: hidden;
+    height: 12vh;
+    display: flex;
+    position: sticky;
+    justify-content:space-between;
+    font-family: "Noto Sans", sans-serif;
+    z-index: 1000;
+}
+.nav1{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+}
+.nav1 h4{
+    font-size: 3vh;
+    color: black;
+}
+.nav2{
+    list-style-type: none;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    gap: 2vw;
+    padding-right: 9vw;
+}
+.nav2 li a{
+    text-decoration: none;
+    font-size: 2.3vh;
+    color:black;
+}
+
+.nav li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* page1 */
+
+.page1{
+    height: 350vh;
+    width: 100%;
+}
+.p1con1{
+    height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.text{
+    display: flex;
+    gap: 3vh;
+    flex-direction: column;
+}
+.text h1, p{
+    color: black;
+}
+
+
+.p1con2{
+  height: 325vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card1{
+    height: 55vh;
+  width: 40vw;
+  border-radius: 30px;
+  background-image: url('/certificate1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+}
+.card2{
+    height: 55vh;
+  width: 40vw;
+  border-radius: 30px;
+  background-image: url('/certificate6.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+}
+.card3{
+    height: 55vh;
+  width: 40vw;
+  border-radius: 30px;
+  background-image: url('/certificate3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+}
+.card4{
+    height: 55vh;
+  width: 40vw;
+  border-radius: 30px;
+  background-image: url('/sql-injection-certificate.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+}
+.card5{
+    height: 55vh;
+  width: 40vw;
+  border-radius: 30px;
+  background-image: url('/darkweb.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+}
+.card6{
+    height: 55vh;
+  width: 40vw;
+  border-radius: 30px;
+  background-image: url('/certificate2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+}
+.card7{
+    height: 55vh;
+  width: 40vw;
+  border-radius: 30px;
+  background-image: url('/certificate5.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+}
+.card8{
+    height: 55vh;
+  width: 40vw;
+  border-radius: 30px;
+  background-image: url('/certificate4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+}
+
+
+
+/* page2 */
+
+
+
+.page2{
+    height: 107vh;
+    width: 100%;
+    background-color: #e1f6fa;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.p2con1{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.p2con2 .text2 h1,p{
+    color: black;
+}
+
+.p2con2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card11{
+    height: 55vh;
+    width: 40vw;
+    border-radius: 30px;
+    background-image: url("https://focusgroup.co.uk/img/web/d39fe9ff-ccfa-4282-8e36-956aaa4839c4/how-is-the-dark-web-monitored.webp?fm=webp&q=80&fit=max&crop=600%2C400%2C0%2C0");
+    background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.card22{
+    height: 55vh;
+    width: 40vw;
+    border-radius: 30px;
+    background-image: url("https://media.wired.com/photos/594db1717c1bde11fe06f341/master/w_2560%2Cc_limit/hidden_data-01.png");
+    background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.card11info{
+    height: 20vh;
+  width: 34vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  margin-right: 50vw;
+  margin-top: 46vh;
+  gap: 2vh;
+}
+.card22info{
+    height: 20vh;
+  width: 34vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  margin-right: -50vw;
+  margin-top: 46vh;
+  gap: 2vh;
+}
+
+
+/* footer */
+
+
+
+
+footer{
+    height: 40vh;
+    background-color: #273239;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .footerleft{
+      font-size: 2.4vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    color: #ffffff;
+    margin-left: 13vh;
+  }
+  
+  .footerleft p{
+    color:#ffffff;
+  }
+  .footerleft .icons{
+    color: #ffffff;
+  }
+  .icons a{
+      text-decoration: none;
+  }
+  #iconsi{
+      font-size: 3.5vh;
+      color: white;
+  }
+  #rightsr{
+      font-size: 2vh;
+      margin-top: 6vh;
+  }
+  
+  .footerright{
+      gap: 2vh;
+      height: 65%;
+    width: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-size: 2.4vh;
+    padding-top: 6vh;
+    padding-left: 1vh;
+    color: #ffffff;
+  }
+
+  .footerright p{
+    color: #ffffff;
+  }
+  #emailuser{
+      height: 5vh;
+    width: 23vw;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+  }
+  
+  #btnn{
+      height: 6vh;
+    width: 19vw;
+    border-radius: 30px;
+    border: none;
+    color: black;
+  }
+
+
+
+
+
+
+  /* mobile---------------------------------------------------------------------------------------- */
+
+
+  @media (max-width: 768px) {
+    .nav2 button{
+      height: 5vh;
+    width: 5vh;
+    border: none;
+    font-size: 2.7vh;
+    background-color: black;
+    color: white;
+  
+    }
+    .nav{
+      height:15vh;
+    }
+    .nav2 ul{
+      list-style-type: none;
+      display: none;
+    }
+  .p1con2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .card1{
+    border-radius: 1px;
+    border: none;
+    height: 29vh;
+  width: 81vw;
+  }
+  .card2{
+    border-radius: 1px;
+    border: none;
+    height: 29vh;
+  width: 81vw;
+  }
+  .card3{
+    border-radius: 1px;
+    border: none;
+    height: 29vh;
+  width: 81vw;
+  }
+  .card4{
+    border-radius: 1px;
+    border: none;
+    height: 29vh;
+  width: 81vw;
+  }
+  .card5{
+    border-radius: 1px;
+    border: none;
+    height: 29vh;
+  width: 81vw;
+  }
+  .card6{
+    border-radius: 1px;
+    border: none;
+
+    height: 29vh;
+  width: 81vw;
+  }
+  .card7{
+    border-radius: 1px;
+    border: none;
+    height: 29vh;
+  width: 81vw;
+  }
+  .card8{
+    border-radius: 1px;
+    border: none;
+    height: 29vh;
+  width: 81vw;
+  }
+  .card11{
+    height: 27vh;
+  width: 90vw;
+  }
+  .card22{
+    height: 27vh;
+  width: 90vw;
+  }
+  .p2con2{
+    gap: 20vh;
+  }
+  .card11info{
+    top: 370vh;
+  left: 6vh;
+  height: 20vh;
+  width: 74vw;
+  }
+  .card22info{
+    top: 420vh;
+    left: 6vh;
+    height: 20vh;
+    width: 77vw;
+
+  }
+
+  .page2{
+    height: 132vh;
+  }
+  footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .footerleft{
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    color: #ffffff;
+    margin-left: 2vh;
+  }
+  footer .footerright{
+    display: none;
+  }
+
+
+
+  }
+
+
+
+
+
+  /* tablets--------------------------------------------------------------------------------- */
+
+  @media (min-width: 769px) and (max-width: 1024px){
+    .page1{
+      height: 167vh;
+  width: 100%;
+
+    }
+    .p1con2{
+      height: 132vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+    }
+    .card1{
+      border-radius: 1px;
+      border: none;
+      height: 27vh;
+  width: 46vw;
+    }
+    .card2{
+      border-radius: 1px;
+      border: none;
+      height: 27vh;
+  width: 46vw;
+    }
+
+    .card3{
+      border-radius: 1px;
+      border: none;
+      height: 27vh;
+  width: 46vw;
+    }
+    .card4{
+      border-radius: 1px;
+      border: none;
+      height: 27vh;
+  width: 46vw;
+    }
+    .card5{
+      border-radius: 1px;
+      border: none;
+      height: 27vh;
+  width: 46vw;
+    }
+    .card6{
+      border-radius: 1px;
+      border: none;
+      height: 27vh;
+  width: 46vw;
+    }
+    .card7{
+      border-radius: 1px;
+      border: none;
+      height: 27vh;
+  width: 46vw;
+    }
+    .card8{
+      border-radius: 1px;
+      border: none;
+      height: 27vh;
+  width: 46vw;
+    }
+
+
+
+.card11{
+  height: 31vh;
+  width: 49vw;
+}
+.card22{
+  height: 31vh;
+  width: 49vw;
+}
+.card11info{
+  bottom: 50vh;
+  height: 20vh;
+  width: 40vw;
+}
+.card22info{
+  bottom: 50vh;
+  height: 20vh;
+  width: 40vw;
+}
+.page2{
+  height: 83vh;
+}
+
+footer .footerleft{
+  font-size: 2vh;
+color: #ffffff;
+margin-left: 2vh;
+}
+footer .footerright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footerright p{
+  font-size: medium;
+}
+#emailuser{
+  width: 42vw;
+}
+#btnn{
+  width: 30vw;
+}
+
+}
+
+
+
+/* bigger screens-------------------------------------------------------------------------------- */
+
+@media (min-width: 1025px){
+
+.menures{
+  display: none;
+}
+.nav2 ul{
+  display: flex;
+  list-style-type: none;
+  gap: 4vh;
+}
+
+
+
+}

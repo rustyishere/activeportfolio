@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    color: #ffffff;
+}
+::selection {
+    color: #ffffff;
+    background: black;
+  }
+  #profile:hover{
+
+    transform: scale(1.25);
+    transition: ease-in-out 0.7s;
+
+  }
+.main{
+    position: relative;
+    height:100%;
+    width: 100%;
+}
+.nav{
+    background-color: #ffffff;
+    top: 0;
+    overflow: hidden;
+    height: 12vh;
+    display: flex;
+    position: sticky;
+    justify-content:space-between;
+    font-family: "Noto Sans", sans-serif;
+    z-index: 1000;
+}
+.nav1{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+}
+.nav1 h4{
+    font-size: 3vh;
+}
+.nav2{
+    list-style-type: none;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    gap: 2vw;
+    padding-right: 9vw;
+}
+.nav2 li a{
+    text-decoration: none;
+    font-size: 2.3vh;
+    color:black;
+}
+
+.nav li a:hover{
+    text-decoration: underline;
+}
+
+/* page1 */
+
+.page1{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/010/568/314/non_2x/cyber-security-and-data-protection-information-privacy-internet-technology-show-padlock-protecting-business-and-financial-data-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.p1left{
+    height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12vh;
+  flex-direction: column;
+  gap: 2vh;
+
+}
+.p1right{
+    height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 12vh;
+}
+
+.imgcontainer{
+    border: 1px solid cornsilk;
+    height: 55vh;
+    width: 30vw;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#profile{
+    height: 107vh;
+  position: relative;
+  top: -25vh;
+}
+.iconsabout{
+    display: flex;
+    gap: 2vh;
+    font-size: 3.5vh;
+}
+.iconsabout a{
+    text-decoration: none;
+}
+.iconsabout i{
+    color:#0e92f8;
+}
+
+
+
+
+/* footer */
+
+footer{
+    height: 40vh;
+    background-color: #273239;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .footerleft{
+      font-size: 2.4vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    color: #ffffff;
+    margin-left: 13vh;
+  }
+  
+  .icons a{
+      text-decoration: none;
+  }
+  #iconsi{
+      font-size: 3.5vh;
+      color: white;
+  }
+  #rightsr{
+      font-size: 2vh;
+      margin-top: 6vh;
+  }
+  
+  .footerright{
+      gap: 2vh;
+      height: 65%;
+    width: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-size: 2.4vh;
+    padding-top: 6vh;
+    padding-left: 1vh;
+    color: #ffffff;
+  }
+  #emailuser{
+      height: 5vh;
+    width: 23vw;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+  }
+  
+  #btnn{
+      height: 6vh;
+    width: 19vw;
+    border-radius: 30px;
+    border: none;
+    color: black;
+  }
+
+
+
+
+  /* mobile------------------------------------------------------------------------------------------ */
+
+@media (max-width: 768px) {
+    .nav2 button{
+        height: 5vh;
+      width: 5vh;
+      border: none;
+      font-size: 2.7vh;
+      background-color: black;
+      color: white;
+    
+      }
+      .nav{
+        height:15vh;
+      }
+      .nav1 h4{
+        color: black;
+      }
+      .nav2 ul{
+        list-style-type: none;
+        display: none;
+      }
+    .p1left{
+        display: none;
+    }
+    .p1right{
+        display: none;
+    }
+    .mobileimg{
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    }
+    .holderimg{
+        height: 80%;
+        width: 70%;
+        border-radius: 5px;
+        overflow: hidden;
+        background-image: url("/source/profile.jpg");
+        background-repeat: no-repeat;
+        background-size:150%;
+        background-position: left;
+    }
+    .page1{
+        flex-direction: column;
+    }
+    .mobiletext{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    footer{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      footer .footerleft{
+        font-size: 2vh;
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        justify-content: center;
+        color: #ffffff;
+        margin-left: 2vh;
+      }
+      footer .footerright{
+        display: none;
+      }
+
+
+
+
+
+}
+
+/* tablets--------------------------------------------------------------------------------------- */
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .mobileimg{
+        display: none;
+    }
+    .mobiletext{
+        display: none;
+    }
+    .p1left{
+        padding-left: 2vh;
+    }
+    .p1right{
+        padding-left: 0vh;
+    }
+    .imgcontainer{
+        height: 45vh;
+        width: 47vw;
+        position: relative;
+        bottom: 8vh;
+    }
+    #profile{
+        position: absolute;
+    left: -7vh;
+    top: -30vh;
+    }
+
+    footer .footerleft{
+        font-size: 2vh;
+      color: #ffffff;
+      margin-left: 2vh;
+      }
+      footer .footerright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      footer .footerright p{
+        font-size: medium;
+      }
+      #emailuser{
+        width: 42vw;
+      }
+      #btnn{
+        width: 30vw;
+      }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bigger screens---------------------------------------------------------------------------------- */
+
+
+
+@media (min-width: 1025px){
+
+
+.mobileimg{
+    display: none;
+}
+.mobiletext{
+    display: none;
+}
+.menures{
+    display: none;
+  }
+  .nav2 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 4vh;
+  }
+
+
+}
+
+
+
