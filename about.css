@@ -222,7 +222,7 @@ footer{
         width: 70%;
         border-radius: 5px;
         overflow: hidden;
-        background-image: url("/source/profile.jpg");
+        background-image: url("profile.jpg");
         background-repeat: no-repeat;
         background-size:150%;
         background-position: left;
