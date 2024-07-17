@@ -446,6 +446,7 @@ footer .footerleft{
     left: 6vw;
   }
   .con1_1 button{
+    display:none;
     color: white;
     background-color: transparent;
     height: 3vh;
