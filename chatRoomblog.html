@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding-bottom: 80px; /* Adding extra padding to prevent overlap */
+        }
+
+        h1, h2, h3 {
+            color: #4CAF50;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .features, .process {
+            margin: 20px 0;
+        }
+
+        .features ul, .process ol {
+            margin-left: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="color: white;">Welcome to Our Chat Application Blog</h1>
+    </div>
+
+    <div class="container">
+        <h2>Introduction</h2>
+        <p>
+            Welcome to the blog page dedicated to our innovative Chat Application! In this post, we will explore the features of our chat app, the technology stack used, and provide a comprehensive guide on how we built it.
+        </p>
+
+        <h2 class="features">Features of the Chat Application</h2>
+        <ul>
+            <li>Real-time messaging with Socket.IO</li>
+            <li>User and room handling</li>
+            <li>Dark-themed, user-friendly interface</li>
+            <li>Moderator dashboard for managing users and rooms</li>
+            <li>Secure and private chat environment</li>
+            <li>Responsive design for both desktop and mobile devices</li>
+        </ul>
+
+        <h2>Moderator Dashboard Features</h2>
+        <ul>
+            <li>Block users</li>
+            <li>Join rooms</li>
+            <li>View active rooms and blocked users</li>
+        </ul>
+
+        <h2 class="process">How We Built It</h2>
+        <ol>
+            <li>
+                <strong>Backend Setup with Flask</strong>
+                <p>
+                    We used Flask, a lightweight WSGI web application framework in Python, for the backend. Flask allows us to create robust and scalable web applications quickly and efficiently.
+                </p>
+            </li>
+            <li>
+                <strong>Real-time Communication with Socket.IO</strong>
+                <p>
+                    To enable real-time messaging, we integrated Socket.IO, which provides a simple and efficient way to handle real-time, bi-directional communication between web clients and servers.
+                </p>
+            </li>
+            <li>
+                <strong>User and Room Management</strong>
+                <p>
+                    The application supports multiple rooms and users, each identified by unique keys. Users can join existing rooms or create new ones, ensuring a flexible and dynamic chat environment.
+                </p>
+            </li>
+            <li>
+                <strong>Implementing the Moderator Dashboard</strong>
+                <p>
+                    The moderator dashboard provides administrative control over the chat rooms. Moderators can block users, join rooms, and view the list of active rooms and blocked users, ensuring a safe and managed chat environment.
+                </p>
+            </li>
+            <li>
+                <strong>Front-end Development</strong>
+                <p>
+                    The front-end of the application is built using HTML, CSS, and JavaScript. We ensured a responsive design that adapts to various screen sizes, providing a seamless user experience on both desktop and mobile devices.
+                </p>
+            </li>
+            <li>
+                <strong>Styling and Theming</strong>
+                <p>
+                    The application features a dark theme with a stylish interface. CSS is used to create a visually appealing and intuitive user interface, making the chat experience enjoyable.
+                </p>
+            </li>
+        </ol>
+
+        <h2>Deployment</h2>
+        <p>
+            The chat application can be deployed on various platforms, including AWS and PythonAnywhere. Proper configuration and optimization ensure smooth performance and real-time message delivery.
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>Connect with us:</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/rahullllll_3?igsh=dWx2ZzBhMzZyNWl3&utm_source=qr" target="_blank">
+                <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rahul-lingampally-041552257/" target="_blank">
+                <i class="ri-linkedin-fill"></i>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                <i class="ri-mail-line"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
